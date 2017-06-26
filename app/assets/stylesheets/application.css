@@ -1,0 +1,43 @@
+* {box-sizing: border-box;
+    margin: 0 auto;
+font-family: 'Arial';
+}
+
+header {
+    margin-top: 100px;
+    width: 600px;
+    height: 400px;
+    background-color: #ededed;
+    font-family: 'Coming Soon', cursive;
+    background-image: url("image00.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.result {
+    padding-top: 160px;
+    text-align: center;
+}
+
+.pic {
+    background-image: url("image01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 600px;
+}
+
+.question {
+padding-top: 95px;
+text-align: center;  
+}
+
+.form {
+padding-top: 180px;
+text-align: center;
+font-family: 'Coming Soon', cursive;
+}
+
+.btn-group{
+font-family: 'Coming Soon', cursive;
+}

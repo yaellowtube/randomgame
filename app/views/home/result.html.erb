@@ -1,0 +1,15 @@
+<header class="pic">
+    <div class="result">
+        <h1>
+            <%= @name %>님의 오덕력 지수는
+            <%= @result %>%입니다!
+            <% if @result == "0" %>
+                <h2>"당신은 청정구역."</hw>
+            <% elsif @result == "70" %>
+                <h2>"부정하지 말아요. 당신은 이미 오덕."</h2>
+            <% else @result == "100" %>
+                <h2>"이 시대 진정한 오덕. 일상생활 가능?"</h2>
+            <% end %>
+        </h1>
+    </div>
+</header>
